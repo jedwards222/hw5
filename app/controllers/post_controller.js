@@ -75,13 +75,4 @@ export const updatePost = (req, res) => {
     console.log(error);
     res.json({ error });
   });
-
-  // Post.findByIdAndUpdate(req.params.id,
-  //   { title: req.body.title }, { content: req.body.content }, { tags: req.body.tags })
-  // .then(result => {
-  //   res.json({ message: result });
-  // })
-  // .catch(error => {
-  //   res.json({ error });
-  // });
 };
